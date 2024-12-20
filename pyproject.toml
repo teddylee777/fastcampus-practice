@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastcampus-perplexity-clone"
+version = "0.1.0"
+description = ""
+authors = ["teddy <teddylee777@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+langchain = "^0.3.13"
+langgraph = "^0.2.60"
+langchain-openai = "^0.2.14"
+jupyter = "^1.1.1"
+notebook = "^7.3.1"
+streamlit = "^1.41.1"
+langchain-teddynote = "^0.3.40"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
