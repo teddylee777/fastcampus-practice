@@ -1,0 +1,21 @@
+[theme]
+
+# 사용자 정의 테마가 상속받을 Streamlit 기본 테마입니다.
+# "light" 또는 "dark" 중 하나를 선택할 수 있습니다.
+base = "light"
+
+# 대화형 요소에 사용되는 기본 강조 색상입니다.
+primaryColor = "#027373"
+
+# 메인 콘텐츠 영역의 배경색입니다.
+backgroundColor = "#F2E7DC"
+
+# 사이드바와 대부분의 대화형 위젯에 사용되는 배경색입니다.
+secondaryBackgroundColor = "#A9D9D0"
+
+# 대부분의 텍스트에 사용되는 색상입니다.
+textColor = "#0D0D0D"
+
+# 코드 블록을 제외한 앱의 모든 텍스트에 사용되는 글꼴 패밀리입니다.
+# "sans serif", "serif", 또는 "monospace" 중 하나를 선택할 수 있습니다.
+font = "monospace"
